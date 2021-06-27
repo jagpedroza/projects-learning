@@ -45,8 +45,8 @@ def calculadora_barf(edad, peso):
     hc = cd * .5
     cp = cd * .3
     vo = cd * .1
-    vv = cd * .6
-    ft = cd * .4
+    vv = cd * .06
+    ft = cd * .04
 
     print('El perro deberá de comer: '+ str(round(cd,2))+ ' Kilogramos '+duracion+ ', de los cuales: \nHuesos carnosos: ' + str(round(hc,2))+ '\nCarnes y pescado: ' + str(round(cp,2)) + '\nVíceras y órganos: ' + str(round(vo,2))+'\nVegetales y verduras: ' + str(round(vv,2))+'\nFruta: ' + str(round(ft,2)))
 
